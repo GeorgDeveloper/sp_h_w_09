@@ -1,11 +1,11 @@
-package ru.georgdeveloper.userapp.services;
+package ru.georgdeveloper.taskapp.services;
 
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import ru.georgdeveloper.userapp.enums.Status;
-import ru.georgdeveloper.userapp.models.Task;
-import ru.georgdeveloper.userapp.repositpry.TaskRepository;
+import ru.georgdeveloper.taskapp.enums.Status;
+import ru.georgdeveloper.taskapp.models.Task;
+import ru.georgdeveloper.taskapp.repositpry.TaskRepository;
 
 import java.time.LocalDateTime;
 import java.util.List;
@@ -16,7 +16,7 @@ import java.util.List;
 @RequiredArgsConstructor
 public class TaskService {
     private final TaskRepository taskRepository;
-    private final UserRepository userRepository;
+   // private final UserRepository userRepository;
 
     public boolean createTask(String nameTask, String taskBody, long userId) {
 
@@ -26,7 +26,7 @@ public class TaskService {
         task.setTaskBody(taskBody);
         task.getStatus().add(Status.NOT_STARTED);
         task.setStatus(task.getStatus());
-        task.getExecutors().add(userRepository.findById(userId).orElse(null));
+        //task.getExecutors().add(userRepository.findById(userId).orElse(null));
         task.setDateOfCreated(LocalDateTime.now());
         taskRepository.save(task);
         log.info("Task {} has been successfully created", task.getId());
@@ -63,7 +63,7 @@ public class TaskService {
             task.setTaskBody(taskBody);
         }
         if (userId != 0) {
-            task.getExecutors().add(userRepository.findById(userId).orElse(null));
+           // task.getExecutors().add(userRepository.findById(userId).orElse(null));
         } else task.setTaskBody(taskRepository.findById(id).get().getTaskBody());
         if (!status.isEmpty()) {
             task.getStatus().clear();
@@ -77,10 +77,18 @@ public class TaskService {
     }
 
 
-    public List<Task> findTaskByUser(User userByPrincipal) {
+//    public List<Task> findTaskByUser(User userByPrincipal) {
+//
+//        return taskRepository.findTaskByExecutors(userByPrincipal);
+//    }
 
-        return taskRepository.findTaskByExecutors(userByPrincipal);
+
+    public List<Task> getAllTasks() {
+        return taskRepository.findAll();
     }
 
-
+    public boolean createTask(Task task) {
+       taskRepository.save(task);
+       return true;
+    }
 }

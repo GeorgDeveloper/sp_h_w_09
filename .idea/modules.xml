@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eurekaserver.main.iml" filepath="$PROJECT_DIR$/.idea/modules/eurekaserver.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/eurekaserver.test.iml" filepath="$PROJECT_DIR$/.idea/modules/eurekaserver.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/mservice.iml" filepath="$PROJECT_DIR$/mservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/tasks.iml" filepath="$PROJECT_DIR$/tasks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks.main.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/tasks.test.iml" filepath="$PROJECT_DIR$/.idea/modules/tasks.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/users.iml" filepath="$PROJECT_DIR$/users.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/users.main.iml" filepath="$PROJECT_DIR$/.idea/modules/users.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/users.test.iml" filepath="$PROJECT_DIR$/.idea/modules/users.test.iml" />
     </modules>
   </component>
 </project>

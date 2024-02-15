@@ -1,4 +1,4 @@
-package ru.georgdeveloper.taskapp.logg;
+package ru.georgdeveloper.userapp.logg;
 
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.AfterReturning;
@@ -15,7 +15,7 @@ import org.springframework.stereotype.Component;
 public class UserActionLoggingAspect {
     private static final Logger logger = LoggerFactory.getLogger(UserActionLoggingAspect.class);
 
-    @Pointcut(value = "@annotation(ru.georgdeveloper.taskapp.anatation.TrackUserAction)")
+    @Pointcut(value = "@annotation(ru.georgdeveloper.userapp.anatation.TrackUserAction)")
     public void trackUserAction() {}
 
     @AfterReturning(pointcut = "trackUserAction()", returning = "result")

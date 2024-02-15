@@ -1,8 +1,8 @@
-package ru.georgdeveloper.userapp.models;
+package ru.georgdeveloper.taskapp.models;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import ru.georgdeveloper.userapp.enums.Status;
+import ru.georgdeveloper.taskapp.enums.Status;
 
 import java.time.LocalDateTime;
 import java.util.HashSet;
@@ -26,11 +26,5 @@ public class Task {
     private Set<Status> status = new HashSet<>();
     @Column(name = "dateOfCreated")
     private LocalDateTime dateOfCreated;
-    @ManyToMany(fetch = FetchType.EAGER)
-    @JoinTable(
-            name = "task_executors",
-            joinColumns = @JoinColumn(name = "task_id"),
-            inverseJoinColumns = @JoinColumn(name = "user_id")
-    )
-    private Set<User> executors = new HashSet<>();
+
 }

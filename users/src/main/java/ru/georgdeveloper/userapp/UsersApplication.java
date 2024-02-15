@@ -1,4 +1,4 @@
-package ru.georgdeveloper.taskapp;
+package ru.georgdeveloper.userapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

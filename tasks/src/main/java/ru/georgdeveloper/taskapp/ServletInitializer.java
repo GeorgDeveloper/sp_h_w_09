@@ -1,4 +1,4 @@
-package ru.georgdeveloper.userapp;
+package ru.georgdeveloper.taskapp;
 
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;

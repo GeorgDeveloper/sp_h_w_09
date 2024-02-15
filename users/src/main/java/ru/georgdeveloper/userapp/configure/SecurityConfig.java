@@ -1,4 +1,4 @@
-package ru.georgdeveloper.taskapp.configure;
+package ru.georgdeveloper.userapp.configure;
 
 
 import lombok.RequiredArgsConstructor;
@@ -12,7 +12,7 @@ import org.springframework.security.config.annotation.web.configurers.AbstractHt
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
-import ru.georgdeveloper.taskapp.services.CustomUserDetailsService;
+import ru.georgdeveloper.userapp.services.CustomUserDetailsService;
 
 /**
  * Авторизация и контроль доступа к ресурсам
@@ -28,21 +28,21 @@ public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity http) throws Exception {
         http.csrf(AbstractHttpConfigurer::disable).formLogin(form -> form
-                        .loginPage("/login")
+                        .loginPage("/users/login")
                         .permitAll()).authorizeHttpRequests(authorizationManagerRequestMatcherRegistry ->
                         authorizationManagerRequestMatcherRegistry
-                                .requestMatchers("/registration/**").permitAll()
-                                .requestMatchers("/login/**").permitAll()
-                                .requestMatchers("/admin/**").hasRole("ADMIN")
-                                .requestMatchers("/user/**").authenticated()
-                                .requestMatchers("/index/**").authenticated()
-                                .requestMatchers("/create/**").authenticated()
-                                .requestMatchers("/**").authenticated()
-                                .requestMatchers("/search/**").hasRole("ADMIN")
-                                .requestMatchers("task_table/delete/**").hasRole("ADMIN")
-                                .requestMatchers("/task_table/change/**").hasRole("ADMIN")
-                                .requestMatchers("task_table/find/**").hasRole("ADMIN")
-                                .requestMatchers("update/**").hasRole("ADMIN")
+//                                .requestMatchers("/registration/**").permitAll()
+//                                .requestMatchers("/login/**").permitAll()
+//                                .requestMatchers("/admin/**").hasRole("ADMIN")
+//                                .requestMatchers("/user/**").authenticated()
+//                                .requestMatchers("/index/**").authenticated()
+//                                .requestMatchers("/create/**").authenticated()
+                                .requestMatchers("/**").permitAll()
+//                                .requestMatchers("/search/**").hasRole("ADMIN")
+//                                .requestMatchers("task_table/delete/**").hasRole("ADMIN")
+//                                .requestMatchers("/task_table/change/**").hasRole("ADMIN")
+//                                .requestMatchers("task_table/find/**").hasRole("ADMIN")
+//                                .requestMatchers("update/**").hasRole("ADMIN")
                                 .anyRequest().authenticated());
         return http.build();
     }

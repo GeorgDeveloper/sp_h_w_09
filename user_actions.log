@@ -1,2 +1,33 @@
 [2024-02-14 23:17:11] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=352, name=ТЕСТ, email=test@test.te, password=$2a$08$XATVWkwuEYZDDofzWGXHauGMglEE2VXyFr1N1vwSAUTY3FmZy7RsW, roles=[USER]).
 [2024-02-14 23:19:57] User 'ifreyd@mail.ru' performed action: 'createUser' with arguments: User(id=353, name=Егор, email=test2@test.te, password=$2a$08$xcV11aBrU/fySSapxLtO5e29IBP1d.v4IJI7toVKO9g.NHUsPNFMi, roles=[USER]).
+[2024-02-15 19:54:22] User 'anonymousUser' performed action: 'findAll'.
+[2024-02-15 20:25:41] User 'anonymousUser' performed action: 'findAll'.
+[2024-02-15 20:26:18] User 'anonymousUser' performed action: 'findAll'.
+[2024-02-15 20:33:54] User 'anonymousUser' performed action: 'findAll'.
+[2024-02-15 20:34:42] User 'anonymousUser' performed action: 'findAll'.
+[2024-02-15 20:36:20] User 'anonymousUser' performed action: 'findAll'.
+[2024-02-15 20:57:34] User 'anonymousUser' performed action: 'findAll'.
+[2024-02-15 21:01:06] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=402, name=Иванов Егор Петрович, email=test3@test.te, password=$2a$08$QRIoIioDQ/pCUZK/qarkFOWwxJqlVNKvS2R0hXLgXM5IvDgTW6tKi, roles=[USER]).
+[2024-02-15 21:11:21] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=403, name=Иванов, email=test4@test.te, password=$2a$08$7LuZbqkNh2BZwOZiNfKrWOHL8QmbVYmfg60/saWZksztx0f3o8hyK, roles=[USER]).
+[2024-02-15 21:13:44] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=404, name=ifreyd, email=test5@test.te, password=$2a$08$VwqDHZgP4mpQ9x68TjU16eISL5fiYc2WNz8lHgm6Pqt6dIyWNbAvG, roles=[USER]).
+[2024-02-15 21:23:37] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=405, name=ifreyd, email=test6@test.te, password=$2a$08$CQrIlHhfUYnciExLyt/ykeRDR50YO5nn3edAXX50nbX03FeGPoL0G, roles=[USER]).
+[2024-02-15 22:06:17] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=452, name=Егор, email=test7@test.te, password=$2a$08$MYejv6ErfuO8iw6fUtPf8u6r8A1Q7B9Gf8qUqTGmZILj12ijDlh06, roles=[USER]).
+[2024-02-15 22:07:08] User 'anonymousUser' performed action: 'findAll'.
+[2024-02-15 22:08:04] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=453, name=rty, email=test8@test.te, password=$2a$08$.7yGTjuSiuoDVPLfPiGvEuRy2ysuBQLAw0ImJsQF9U.Eq2Q5sCR/m, roles=[USER]).
+[2024-02-15 22:14:07] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=454, name=ifreyd, email=ifreyd2@mail.ru, password=$2a$08$KuVtAbt5n2UAfXR60hoXWOFWs3xXCsKglridktvRl00BKS0gVsKPO, roles=[USER]).
+[2024-02-15 22:15:52] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=455, name=ifreyd, email=ifreyd3@mail.ru, password=$2a$08$aggHksBF7xoS6a5tJhq02ezCLt6Ov6dMspqEWkZKHQeBiOnzvYi9G, roles=[USER]).
+[2024-02-15 22:19:20] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=456, name=, email=, password=$2a$08$RnHll6QiB9c5GIROXZS66uQqAsgcQVDtWt/7c6jN51zI507OoewvG, roles=[USER]).
+[2024-02-15 22:22:34] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=null, name=, email=, password=, roles=[USER]).
+[2024-02-15 22:27:04] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=null, name=, email=, password=, roles=[USER]).
+[2024-02-15 22:28:00] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=null, name=, email=, password=, roles=[USER]).
+[2024-02-15 22:34:47] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=null, name=, email=, password=, roles=[USER]).
+[2024-02-15 22:41:22] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=null, name=, email=, password=, roles=[USER]).
+[2024-02-15 22:43:30] User 'anonymousUser' performed action: 'findAll'.
+[2024-02-15 22:44:24] User 'anonymousUser' performed action: 'findAll'.
+[2024-02-15 22:45:06] User 'anonymousUser' performed action: 'findAll'.
+[2024-02-15 22:45:46] User 'anonymousUser' performed action: 'findAll'.
+[2024-02-15 22:46:06] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=null, name=, email=, password=, roles=[ADMIN]).
+[2024-02-15 22:47:57] User 'anonymousUser' performed action: 'findAll'.
+[2024-02-15 22:48:03] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=null, name=, email=, password=, roles=[USER]).
+[2024-02-15 23:07:43] User 'anonymousUser' performed action: 'findAll'.
+[2024-02-15 23:07:57] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=502, name=Егор, email=ifreyd5@mail.ru, password=$2a$08$iQF4emcTjTWI2klWap.OTOxXJIaZPSayK7Zy4aOprRdLJ1XzNOX0K, roles=[USER]).

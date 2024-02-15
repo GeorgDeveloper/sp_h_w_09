@@ -1,4 +1,4 @@
-package ru.georgdeveloper.taskapp.enums;
+package ru.georgdeveloper.userapp.enums;
 
 import org.springframework.security.core.GrantedAuthority;
 

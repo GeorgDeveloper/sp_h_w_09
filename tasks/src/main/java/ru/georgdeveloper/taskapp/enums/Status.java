@@ -1,4 +1,4 @@
-package ru.georgdeveloper.userapp.enums;
+package ru.georgdeveloper.taskapp.enums;
 
 public enum Status {
 

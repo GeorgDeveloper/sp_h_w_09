@@ -1,7 +1,7 @@
-package ru.georgdeveloper.taskapp.repositpry;
+package ru.georgdeveloper.userapp.repositpry;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import ru.georgdeveloper.taskapp.models.User;
+import ru.georgdeveloper.userapp.models.User;
 
 
 public interface UserRepository extends JpaRepository<User, Long> {

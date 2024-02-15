@@ -1,4 +1,4 @@
-package ru.georgdeveloper.taskapp.logg;
+package ru.georgdeveloper.userapp.logg;
 
 import java.io.File;
 import java.io.FileWriter;

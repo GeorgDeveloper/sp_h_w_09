@@ -1,4 +1,4 @@
-package ru.georgdeveloper.userapp;
+package ru.georgdeveloper.taskapp;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -12,7 +12,6 @@ import org.springframework.context.annotation.ComponentScan;
 
 @EnableDiscoveryClient
 @SpringBootApplication
-@ComponentScan(basePackages = {"ru.georgdeveloper.userapp.services"})
 public class TasksApplication {
 
 	public static void main(String[] args) {

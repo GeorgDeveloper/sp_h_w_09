@@ -5,11 +5,11 @@
     <title>Web Service</title>
 </head>
 <body>
+<a href="/login">Войти</a>
 <h1>Список задач</h1>
-
-<#list tasks as task >
-
-
+<ul>
+    <li th:each="task : ${tasks}" th:text="${task}"></li>
+</ul>
 
 <h1>Список пользователей</h1>
 <ul>

@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
-  <title>$Title$</title>
+  <title>Задачи</title>
 </head>
 <body>
-$END$
+<h1>Задачи</h1><hr>
+<h4>Авторизация</h4>
+<form action="/users/login" method="post">
+  Эл. почта: <input type="email" name="username"><br><br>
+  Пароль: <input type="password" name="password"><br><br>
+  <input type="submit" value="Вход"/>
+</form>
+<a href="/registration">Зарегистрироваться</a>
 </body>
 </html>

@@ -3,11 +3,29 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/eurekaserver" />
+        <option name="gradleHome" value="C:/Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/eurekaserver" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/tasks" />
         <option name="gradleHome" value="C:/Gradle" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/tasks" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/users" />
+        <option name="gradleHome" value="C:/Gradle" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/users" />
           </set>
         </option>
       </GradleProjectSettings>

@@ -41,4 +41,13 @@ public class UserService {
         if (principal == null) return new User();
         return userRepository.findByEmail(principal.getName());
     }
+
+    public boolean dell(long id) {
+        userRepository.deleteById(id);
+        return true;
+    }
+
+    public User findUserById(long id) {
+       return userRepository.findById(id).orElse(null);
+    }
 }

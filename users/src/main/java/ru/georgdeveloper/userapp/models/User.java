@@ -1,10 +1,10 @@
-package ru.georgdeveloper.taskapp.models;
+package ru.georgdeveloper.userapp.models;
 
 import jakarta.persistence.*;
 import lombok.Data;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
-import ru.georgdeveloper.taskapp.enums.Role;
+import ru.georgdeveloper.userapp.enums.Role;
 
 import java.util.Collection;
 import java.util.HashSet;
