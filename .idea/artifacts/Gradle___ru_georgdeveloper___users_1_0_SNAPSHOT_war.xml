@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" external-system-id="GRADLE" name="Gradle : ru.georgdeveloper : users-1.0-SNAPSHOT.war">
+    <output-path>$PROJECT_DIR$/users/build/libs</output-path>
+    <properties id="gradle-properties">
+      <options external-project-path="$PROJECT_DIR$/users">
+        <buildTaskPath>:war</buildTaskPath>
+        <cleanTaskPath>:cleanWar</cleanTaskPath>
+      </options>
+    </properties>
+    <root id="archive" name="users-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="Gradle : ru.georgdeveloper : users-1.0-SNAPSHOT.war (exploded)" />
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Service</title>
+</head>
+<body>
+<h1>Список задач</h1>
+
+<#list tasks as task >
+
+
+
+<h1>Список пользователей</h1>
+<ul>
+    <li th:each="user : ${users}" th:text="${user}"></li>
+</ul>
+</body>
+</html>

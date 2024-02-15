@@ -1,0 +1,2 @@
+[2024-02-14 23:17:11] User 'anonymousUser' performed action: 'createUser' with arguments: User(id=352, name=“≈—“, email=test@test.te, password=$2a$08$XATVWkwuEYZDDofzWGXHauGMglEE2VXyFr1N1vwSAUTY3FmZy7RsW, roles=[USER]).
+[2024-02-14 23:19:57] User 'ifreyd@mail.ru' performed action: 'createUser' with arguments: User(id=353, name=≈„Ó, email=test2@test.te, password=$2a$08$xcV11aBrU/fySSapxLtO5e29IBP1d.v4IJI7toVKO9g.NHUsPNFMi, roles=[USER]).

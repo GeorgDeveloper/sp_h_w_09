@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="tasks" external.linked.project.path="$MODULE_DIR$/tasks" external.root.project.path="$MODULE_DIR$/tasks" external.system.id="GRADLE" external.system.module.group="ru.georgdeveloper" external.system.module.version="1.0-SNAPSHOT" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/tasks">
+      <excludeFolder url="file://$MODULE_DIR$/tasks/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/tasks/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="17" jdkType="JavaSDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="SonarLintModuleSettings">
+    <option name="uniqueId" value="83fe19c9-ff79-4f04-8c1c-d47454e41d60" />
+  </component>
+</module>
